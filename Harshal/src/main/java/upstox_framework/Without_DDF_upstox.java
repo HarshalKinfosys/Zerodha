@@ -26,7 +26,7 @@ public class Without_DDF_upstox {
 		//click on sign in
 		driver.findElement(By.xpath("//div[text()='Sign into Upstox']")).click();
 		//
-		driver.findElement(By.xpath("//input[@id='yob']")).sendKeys("1994");
+		driver.findElement(By.xpath("//input[@id='yob']")).sendKeys("1992");
 		//click on no iam good
 		driver.findElement(By.xpath("//div[text()='No, I’m good']")).click();
 		//verify user is on home page
